@@ -1,0 +1,21 @@
+{
+    "name": "deskola/sql-mini",
+    "description": "Mini SQL queries for various functionalities adapted from OREILLY SQL Cookbook Query Solutions and Technique for All SQL User",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Deskola\\SqlMini\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Deskola",
+            "email": "denisogunde@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "ext-pdo": "*"
+    }
+}
